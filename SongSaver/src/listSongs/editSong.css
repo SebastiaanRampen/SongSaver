@@ -1,0 +1,40 @@
+.EditSongForm {
+  background-color: coral;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 150px;
+}
+.EditSongForm label {
+  width: 80px;
+  display: inline-block;
+  margin: 15px 10px 0px 20px;
+}
+.EditSongForm .genreLabel,
+.EditSongForm .youtubeLabel {
+  width: 100px;
+}
+.EditSongForm .artistInput,
+.EditSongForm .genreSelect,
+.EditSongForm .songTitleInput,
+.EditSongForm .youtubeInput {
+  width: 160px;
+}
+.EditSongForm .rating {
+  display: inline-block;
+  margin: 15px 10px 0px 20px;
+  width: 380px;
+  color: orange;
+}
+.EditSongForm .fa-solid {
+  display: inline-block;
+  width: 25px;
+}
+.EditSongForm .fa-solid:hover {
+  opacity: 40%;
+}
+.EditSongForm .fa-circle-check {
+  color: green;
+}
+.EditSongForm .fa-circle-xmark {
+  color: red;
+}/*# sourceMappingURL=editSong.css.map */

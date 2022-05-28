@@ -1,0 +1,54 @@
+form {
+  background-color: lightpink;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 150px;
+}
+form label {
+  display: inline-block;
+  margin: 15px 10px 0px 20px;
+}
+form .artist {
+  width: 350px;
+}
+form .song {
+  width: 370px;
+}
+form .genre {
+  width: 170px;
+}
+form .fa-youtube {
+  color: gray;
+}
+form .withData {
+  color: red;
+}
+form .withData:hover {
+  opacity: 40%;
+}
+form .rating {
+  display: inline-block;
+  margin: 15px 10px 0px 20px;
+  width: 370px;
+  color: orange;
+}
+form .fa-solid {
+  display: inline-block;
+  width: 25px;
+}
+form .fa-pencil {
+  color: purple;
+}
+form .fa-pencil:hover {
+  opacity: 40%;
+}
+form .fa-trash-can {
+  color: gray;
+}
+form .fa-trash-can:hover {
+  color: rgb(110, 100, 115);
+}
+form .iconSpan {
+  width: 50px;
+  float: right;
+}/*# sourceMappingURL=addSongToDom.css.map */

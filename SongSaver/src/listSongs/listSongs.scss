@@ -1,0 +1,28 @@
+.selectionfield {
+  background-color: blue;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+
+  label {
+    width: 55px;
+    display: inline-block;
+    margin: 15px 10px 0px 20px;
+  }
+  .orderLabel {
+    width: 100px;
+  }
+  .filterLabel {
+    width: 30px;
+  }
+  .genreLabel {
+    margin-left: 80px;
+  }
+  span {
+    margin-left: 20px;
+  }
+  span:hover {
+    color: chartreuse;
+  }
+}

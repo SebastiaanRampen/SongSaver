@@ -1,0 +1,60 @@
+form {
+  background-color: lightpink;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 150px;
+
+  label {
+    display: inline-block;
+    margin: 15px 10px 0px 20px;
+  }
+
+  .artist {
+    width: 350px;
+  }
+  .song {
+    width: 370px;
+  }
+  .genre {
+    width: 170px;
+  }
+
+  .fa-youtube {
+    color: gray;
+  }
+  .withData {
+    color: red;
+  }
+  .withData:hover {
+    opacity: 40%;
+  }
+
+  .rating {
+    display: inline-block;
+    margin: 15px 10px 0px 20px;
+    width: 370px;
+    color: orange;
+  }
+  .fa-solid {
+    display: inline-block;
+    width: 25px;
+  }
+
+  .fa-pencil {
+    color: purple;
+  }
+  .fa-pencil:hover {
+    opacity: 40%;
+  }
+
+  .fa-trash-can {
+    color: gray;
+  }
+  .fa-trash-can:hover {
+    color: rgb(110, 100, 115);
+  }
+  .iconSpan {
+    width: 50px;
+    float: right;
+  }
+}

@@ -1,0 +1,45 @@
+.EditSongForm {
+  background-color: coral;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 150px;
+
+  label {
+    width: 80px;
+    display: inline-block;
+    margin: 15px 10px 0px 20px;
+  }
+
+  .genreLabel,
+  .youtubeLabel {
+    width: 100px;
+  }
+
+  .artistInput,
+  .genreSelect,
+  .songTitleInput,
+  .youtubeInput {
+    width: 160px;
+  }
+
+  .rating {
+    display: inline-block;
+    margin: 15px 10px 0px 20px;
+    width: 380px;
+    color: orange;
+  }
+
+  .fa-solid {
+    display: inline-block;
+    width: 25px;
+  }
+  .fa-solid:hover {
+    opacity: 40%;
+  }
+  .fa-circle-check {
+    color: green;
+  }
+  .fa-circle-xmark {
+    color: red;
+  }
+}

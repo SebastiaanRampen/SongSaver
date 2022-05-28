@@ -1,0 +1,28 @@
+.newSongForm {
+  height: 130px;
+  border-radius: 0 0 15px 15px;
+  background-color: lightblue;
+}
+.newSongForm label {
+  display: inline-block;
+  width: 80px;
+  margin: 15px 10px 0px 20px;
+}
+.newSongForm .genreLabel,
+.newSongForm .youtubeLabel {
+  width: 100px;
+}
+.newSongForm .artistInput,
+.newSongForm .genreSelect,
+.newSongForm .songTitleInput,
+.newSongForm .youtubeInput {
+  width: 160px;
+}
+.newSongForm .rating {
+  color: orange;
+}
+.newSongForm .fa-circle-check {
+  display: inline-block;
+  color: green;
+  margin-left: 50px;
+}/*# sourceMappingURL=newSong.css.map */

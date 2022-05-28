@@ -1,0 +1,27 @@
+.selectionfield {
+  background-color: blue;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+}
+.selectionfield label {
+  width: 55px;
+  display: inline-block;
+  margin: 15px 10px 0px 20px;
+}
+.selectionfield .orderLabel {
+  width: 100px;
+}
+.selectionfield .filterLabel {
+  width: 30px;
+}
+.selectionfield .genreLabel {
+  margin-left: 80px;
+}
+.selectionfield span {
+  margin-left: 20px;
+}
+.selectionfield span:hover {
+  color: chartreuse;
+}/*# sourceMappingURL=listSongs.css.map */

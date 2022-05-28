@@ -1,0 +1,30 @@
+.info {
+  position: absolute;
+  z-index: 100;
+  right: 25%;
+  top: 12%;
+  display: inline;
+  text-rendering: auto;
+  overflow: hidden;
+  font-size: smaller;
+  font-weight: bolder;
+  width: 220px;
+  height: 190px;
+  background-color: white;
+  color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+
+  i {
+    position: relative;
+    color: red;
+    left: 195px;
+  }
+}
+.hide {
+  height: 0px;
+  width: 0px;
+  padding: 0;
+  transition: all 300ms ease-in-out;
+}
